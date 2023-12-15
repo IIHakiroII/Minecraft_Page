@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+}
+
+.body-introduction-container {
+  background-color: rgb(15, 28, 54);
+  color: #fff;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.minecraft-logo-container {
+  margin-left: 30px;
+}
+
+.minecraft-logo {
+  width: 60px;
+  height: 70px;
+}
+
+.header-links {
+  display: flex;
+  color: gray;
+  justify-content: center;
+  align-items: center;
+  margin-right: 70px;
+}
+
+
+
+
+
