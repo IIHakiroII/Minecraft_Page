@@ -47,6 +47,7 @@
   font-size:17px;
   color: gray;
   justify-content: flex-start;
+  flex: 1;
 }
 
 .description-button {
@@ -64,8 +65,31 @@
 }
 
 .title-mobs-information {
+  flex: 1;
   justify-content: center;
-  align-items: center;
 }
 
+.size-image {
+  width: 10px;
+  height: 100px;
+  margin: 0;
+}
 
+/* esta parte es dificil, a partir de aqui adelantare lo facil*/
+
+.phrase-text-container {
+  background-color: #E5E7EB;
+  display: flex;
+}
+
+.phrase-information {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  flex: 1;
+  justify-content: center;
+}
+
+.author {
+  color: #1F2937;
+}
